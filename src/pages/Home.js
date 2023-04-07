@@ -18,6 +18,9 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 // import Divider from '@mui/material/Divider';
 import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
 import ComputerIcon from '@mui/icons-material/Computer';
+import EmailIcon from '@mui/icons-material/Email';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 import {
     createTheme,
     // responsiveFontSizes,
@@ -39,8 +42,8 @@ const Home = (props)=> {
 
     return <Box sx={{ bgcolor: '#fcfbfa'}}>
             <AppBar sx={{bgcolor: '#fa750f', color: '#fcf8f5'}} position= 'static'>
-                <Toolbar sx={{width: "100%"}}>
-                    Business Driven IT<br></br>
+                <Toolbar sx={{width: "100%", padding: '2'}}>
+                    Naveen Muralidharan Portfolio <br></br>
 
                     <Tooltip title="About Naveen"> 
                         <IconButton 
@@ -80,9 +83,20 @@ const Home = (props)=> {
                 <Paper elevation={3} sx={{padding:3}}>
                     <ThemeProvider theme={theme}>
                         <Typography variant="h5" component="div">
+                        Summary
+                        <br></br>
+                        <hr></hr>
+                        <br></br>    
                         Welcome, my name is Naveen Muralidharan. <br></br>
-                        With a strong background in microbiology and pharmaceutical manufacturing, coupled with experience in sales, management, and IT, Naveen is a versatile problem-solver who consistently drives efficiency and profitability for businesses.
-
+                        With a strong background in microbiology and pharmaceutical manufacturing, coupled with experience in sales, management, and IT, I am a versatile problem-solver who consistently drives efficiency and profitability for businesses.
+                        <br></br>
+                        <br></br>
+                        
+                        <EmailIcon></EmailIcon> naveenspec@gmail.com
+                        <br></br>
+                        <LocalPhoneIcon></LocalPhoneIcon> 613-262-7381
+                        <br></br>                      
+                        <LocationOnIcon></LocationOnIcon> Toronto, Canada
 
 
                         </Typography>
@@ -93,6 +107,10 @@ const Home = (props)=> {
                 <Paper elevation={3} sx={{padding:3}}>
                     <ThemeProvider theme={theme}>
                         <Typography variant="h5" component="div">
+                            Education and Skills
+                            <br></br>
+                            <hr></hr>
+                            <br></br>
                         <SchoolIcon></SchoolIcon> <br></br>Masters of Microbial Biotechnology - NC State University (Wolfpack '12)
                         <br></br>
                         <br></br>
@@ -138,7 +156,7 @@ const Home = (props)=> {
             </Container>
                 
                 PROJECTS:
-                
+                <hr></hr>
                 <Box sx={{
                     display: 'flex', padding: 4, bgColor: '#fcfbfa'
                 }}>
