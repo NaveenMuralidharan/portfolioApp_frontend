@@ -143,7 +143,7 @@ const Home = (props)=> {
                     display: 'flex', padding: 4, bgColor: '#fcfbfa'
                 }}>
                 
-                    <Stack direction="column" spacing={2}>
+                    <Stack direction="row" spacing={2}>
                         <Paper sx={{padding: 2, color: '#d17d2a'}} elevation={3}>
                             <ThemeProvider theme={theme}>
                                 <Typography variant="h5" component="div">
