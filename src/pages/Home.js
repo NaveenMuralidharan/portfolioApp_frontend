@@ -61,13 +61,13 @@ const Home = (props)=> {
   
                 </Toolbar>
             </AppBar>
-        <Container sx={{ height: '600px'}} maxWidth="sm">
+        <Container sx={{ height: '600px'}} maxWidth="md">
             
 
         
         
         
-          <Container sx={{bgcolor: '#fcfbfa'}} maxWidth="sm">
+          <Container sx={{bgcolor: '#fcfbfa'}} maxWidth="md">
             <br></br>
             
             <Box sx={{
