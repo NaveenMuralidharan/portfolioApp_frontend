@@ -1,10 +1,10 @@
-import React, {useState} from "react";
+import React from "react";
 import {Link} from "react-router-dom";
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
-import RouteIcon from '@mui/icons-material/Route';
+// import RouteIcon from '@mui/icons-material/Route';
 import IconButton from '@mui/material/IconButton';
 import SchoolIcon from '@mui/icons-material/School';
 import Tooltip from '@mui/material/Tooltip';
@@ -15,12 +15,12 @@ import Typography from '@mui/material/Typography';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Stack from '@mui/material/Stack';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import Divider from '@mui/material/Divider';
+// import Divider from '@mui/material/Divider';
 import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
 import ComputerIcon from '@mui/icons-material/Computer';
 import {
     createTheme,
-    responsiveFontSizes,
+    // responsiveFontSizes,
     ThemeProvider,
   } from '@mui/material/styles';
 
