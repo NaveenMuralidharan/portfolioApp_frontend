@@ -42,10 +42,10 @@ const Home = (props)=> {
 
     return <Box sx={{ bgcolor: '#fcfbfa'}}>
             <AppBar sx={{bgcolor: '#fa750f', color: '#fcf8f5'}} position= 'static'>
-                <Toolbar sx={{width: "100%", padding: '2'}}>
+                <Toolbar sx={{width: "100%"}}>
                     Naveen Muralidharan Portfolio <br></br>
 
-                    <Tooltip title="About Naveen"> 
+                    {/* <Tooltip title="About Naveen"> 
                         <IconButton 
                             component={Link} to="/about"
                         >
@@ -59,18 +59,18 @@ const Home = (props)=> {
                         >
                             <EngineeringIcon />
                         </IconButton>
-                    </Tooltip>
+                    </Tooltip> */}
 
   
                 </Toolbar>
             </AppBar>
-        <Container sx={{ height: '600px'}} maxWidth="md">
+        <Container sx={{ height: '600px', maxWidth: 'md'}} >
             
 
         
         
         
-          <Container sx={{bgcolor: '#fcfbfa'}} maxWidth="md">
+          <Container sx={{bgcolor: '#fcfbfa'}}>
             <br></br>
             
             <Box sx={{
